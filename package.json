@@ -5,7 +5,7 @@
     "publisher": "IJustDev",
     "version": "2.1.0",
     "engines": {
-        "vscode": "^1.70.0"
+        "vscode": "^1.110.0"
     },
     "categories": [
         "Other"
@@ -124,7 +124,7 @@
                         "Render Issue in html format"
                     ],
                     "description": "Choose render to show issues in editor"
-                }, 
+                },
                 "gitea.debug": {
                     "scope": "window",
                     "type": "boolean",
@@ -143,16 +143,16 @@
         "test": "node ./out/test/runTest.js"
     },
     "devDependencies": {
-        "@types/vscode": "^1.70.0",
-        "@types/mocha": "^9.1.1",
-        "@types/node": "16.x",
-        "@types/markdown-it": "^12.2.3",
-        "eslint": "^8.20.0",
-        "typescript": "^4.7.4"
+        "@types/vscode": "^1.110.0",
+        "@types/mocha": "^10.0.10",
+        "@types/node": "25.x",
+        "@types/markdown-it": "^14.1.2",
+        "eslint": "^10.0.3",
+        "typescript": "^5.9.3"
     },
     "dependencies": {
-        "axios": "^0.27.2",
-        "markdown-it": "^13.0.1"
+        "axios": "^1.13.6",
+        "markdown-it": "^14.1.1"
     },
     "repository": {
         "type": "github",
